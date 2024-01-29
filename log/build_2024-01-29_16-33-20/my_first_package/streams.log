@@ -1,0 +1,32 @@
+[0.369s] Invoking command in '/home/yungoon/ros2_study/src/my_first_package': PYTHONPATH=/home/yungoon/ros2_study/build/my_first_package/prefix_override:/home/yungoon/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/yungoon/ros2_study/build/my_first_package/build install --record /home/yungoon/ros2_study/build/my_first_package/install.log --single-version-externally-managed
+[0.469s] running egg_info
+[0.469s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.470s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.470s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.470s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.470s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.471s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.471s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] copying my_first_package/dist_turtle_action_server.py -> /home/yungoon/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.472s] running install
+[0.472s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.472s]   warnings.warn(
+[0.472s] running install_lib
+[0.472s] copying /home/yungoon/ros2_study/build/my_first_package/build/lib/my_first_package/dist_turtle_action_server.py -> /home/yungoon/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.472s] byte-compiling /home/yungoon/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/dist_turtle_action_server.py to dist_turtle_action_server.cpython-310.pyc
+[0.472s] Sorry: IndentationError: expected an indented block after function definition on line 17 (dist_turtle_action_server.py, line 18)
+[0.473s] running install_data
+[0.473s] running install_egg_info
+[0.473s] removing '/home/yungoon/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.473s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/yungoon/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.474s] running install_scripts
+[0.484s] Installing dist_turtle_action_server script to /home/yungoon/ros2_study/install/my_first_package/lib/my_first_package
+[0.484s] Installing my_first_node script to /home/yungoon/ros2_study/install/my_first_package/lib/my_first_package
+[0.484s] Installing my_multi_thread script to /home/yungoon/ros2_study/install/my_first_package/lib/my_first_package
+[0.484s] Installing my_pubilsher script to /home/yungoon/ros2_study/install/my_first_package/lib/my_first_package
+[0.484s] Installing my_service_server script to /home/yungoon/ros2_study/install/my_first_package/lib/my_first_package
+[0.484s] Installing my_subscriber script to /home/yungoon/ros2_study/install/my_first_package/lib/my_first_package
+[0.484s] writing list of installed files to '/home/yungoon/ros2_study/build/my_first_package/install.log'
+[0.530s] Invoked command in '/home/yungoon/ros2_study/src/my_first_package' returned '0': PYTHONPATH=/home/yungoon/ros2_study/build/my_first_package/prefix_override:/home/yungoon/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/yungoon/ros2_study/build/my_first_package/build install --record /home/yungoon/ros2_study/build/my_first_package/install.log --single-version-externally-managed

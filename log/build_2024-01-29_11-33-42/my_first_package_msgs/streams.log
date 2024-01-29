@@ -1,0 +1,32 @@
+[0.177s] Invoking command in '/home/yungoon/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/home/yungoon/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/yungoon/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/yungoon/ros2_study/install/my_first_package_msgs
+[0.206s] [31mCMake Error at CMakeLists.txt:33:
+[0.206s]   Parse error.  Function missing ending ")".  Instead found unterminated
+[0.206s]   string with text "msg/CmdAndPoseVel.msg
+[0.206s] 
+[0.206s]   )
+[0.206s] 
+[0.206s]   
+[0.206s] 
+[0.206s]   if(BUILD_TESTING)
+[0.206s] 
+[0.207s]     find_package(ament_lint_auto REQUIRED)
+[0.207s]     # the following line skips the linter which checks for copyrights
+[0.207s]     # comment the line when a copyright and license is added to all source files
+[0.207s]     set(ament_cmake_copyright_FOUND TRUE)
+[0.207s]     # the following line skips cpplint (only works in a git repo)
+[0.207s]     # comment the line when this package is in a git repo and when
+[0.207s]     # a copyright and license is added to all source files
+[0.207s]     set(ament_cmake_cpplint_FOUND TRUE)
+[0.207s]     ament_lint_auto_find_test_dependencies()
+[0.207s] 
+[0.207s]   endif()
+[0.207s] 
+[0.207s]   
+[0.207s] 
+[0.207s]   ament_package()
+[0.207s] 
+[0.207s]   ".
+[0.207s] 
+[0.207s] [0m
+[0.207s] -- Configuring incomplete, errors occurred!
+[0.210s] Invoked command in '/home/yungoon/ros2_study/build/my_first_package_msgs' returned '1': CMAKE_PREFIX_PATH=/home/yungoon/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/yungoon/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/yungoon/ros2_study/install/my_first_package_msgs
